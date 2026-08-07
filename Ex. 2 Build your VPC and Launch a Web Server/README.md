@@ -1,5 +1,3 @@
-<img width="1600" height="965" alt="image" src="https://github.com/user-attachments/assets/e5f2ae25-60c7-493b-8434-7e29151d1910" /># Build Your VPC and Launch a Web Server (AWS) 
-
 ## Author
 
 * **Name**: Sukirthana.M
