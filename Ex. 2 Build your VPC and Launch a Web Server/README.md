@@ -1,10 +1,10 @@
-# Build Your VPC and Launch a Web Server (AWS) 
+<img width="1600" height="965" alt="image" src="https://github.com/user-attachments/assets/e5f2ae25-60c7-493b-8434-7e29151d1910" /># Build Your VPC and Launch a Web Server (AWS) 
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sukirthana.M
+* **Register Number**: 212224220112
+* **Date of Submission**: 07.08.26
 
 ---
 
@@ -87,11 +87,17 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
+
+2. I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+
+3. I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+
+4. I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+
+5. I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+
+6. I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
 
 ---
 
@@ -99,19 +105,22 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1600" height="964" alt="image" src="https://github.com/user-attachments/assets/229651c3-bb35-40f3-8815-50b467e6d0c6" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1600" height="965" alt="image" src="https://github.com/user-attachments/assets/04353400-8250-4137-9268-d3a37c8410c1" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1600" height="955" alt="image" src="https://github.com/user-attachments/assets/a701ae34-2134-4ba1-b707-92de9dbc1190" />
+
 
 ---
 
