@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sukirthana.M
+* **Register Number**: 212224220112
+* **Date of Submission**: 20.08.26
 
 ---
 
@@ -98,11 +98,11 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Launched a new EC2 instance named Web Server in the N. Virginia region using Amazon Linux 2023 AMI and t2.micro instance type.
+2.Enabled termination protection and stop protection, configured a security group, and added a user data script to install and start an Apache web server.
+3.Monitored the instance using status checks, CloudWatch metrics, and system logs to ensure it was running properly.
+4.Modified the security group to allow HTTP (port 80) traffic and accessed the web server using the public IP address.
+5.Resized the instance to t2.small, increased the EBS volume size, explored EC2 service quotas, tested stop protection, and finally stopped the instance.
 
 ---
 
