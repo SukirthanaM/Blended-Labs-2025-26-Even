@@ -110,20 +110,23 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-<img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/1bc8f05d-cea2-4c4c-b182-7e75e197ce10" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9b34dfe8-e054-4e5f-a202-250a51f801f6" />
+
 
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/58ce26d0-d7e1-4804-828e-81efd4aa91a6" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/74b44741-9bb6-499f-94da-14d5e89f6214" />
+
 
 ---
 
