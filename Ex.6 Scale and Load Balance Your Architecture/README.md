@@ -68,9 +68,37 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 Describe step-by-step how you performed this experiment in your own words.
 
+Reviewed the existing EC2 architecture created in previous labs to understand the application setup.
+
+Created a launch template by selecting the AMI, instance type, security group, and adding required configurations.
+
+Created an Auto Scaling Group using the launch template and set the minimum, maximum, and desired number of instances.
+
+Configured an Application Load Balancer and created a target group to route traffic to EC2 instances.
+
+Attached the Auto Scaling Group to the load balancer target group so instances can receive traffic.
+
+Set scaling policies using Amazon CloudWatch alarms based on CPU utilization.
+
+Generated traffic to test load balancing and verified that instances scaled automatically based on demand.
 ---
 
 ## Output Screenshots 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f5a9e0c3-c1d4-4a14-b71c-6807c8cc87db" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e7efae71-9134-4392-b5cf-2e71c2867d70" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/02f1e985-3bae-46fc-946e-24706ad3575d" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/23994119-1dc0-4a0a-a0ff-11cd1958718a" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4b7227b9-0f4c-447b-8c0d-6be5f879d2f6" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0d2b82ba-584e-4daa-acb5-1fe3914c508f" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3da77386-75c8-40d7-a764-a6fbdc13bb02" />
+
 
 
 ---
